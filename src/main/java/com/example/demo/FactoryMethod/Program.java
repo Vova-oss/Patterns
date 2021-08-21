@@ -5,6 +5,9 @@ import com.example.demo.FactoryMethod.Factories.Factory;
 import com.example.demo.FactoryMethod.Factories.JavaDeveloperFactory;
 import com.example.demo.FactoryMethod.Objects.Developer;
 
+/**
+ * Класс - Клиент
+ */
 public class Program {
 
     public static void main(String[] args) {
