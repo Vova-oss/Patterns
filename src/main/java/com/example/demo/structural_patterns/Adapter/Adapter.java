@@ -20,4 +20,9 @@ public class Adapter extends JavaInteractionWithDB implements Database{
     public void remove() {
         deleteObject();
     }
+
+    @Override
+    public void deleteObject() {
+        System.out.println("We can change some methods special for our new class");
+    }
 }
